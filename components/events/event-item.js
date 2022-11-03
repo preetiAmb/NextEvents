@@ -8,10 +8,6 @@ function EventItem(props) {
     
     const { title, image, date, location, id}  = props;
 
-    console.log(location)
-    console.log(image)
-    console.log(date)
-
     const humanReadableDate = new Date(date).toLocaleDateString('en-US', {
         day: 'numeric',
         month: 'long',
